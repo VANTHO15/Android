@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/marginTopHinh"
+        android:src="@drawable/bk" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:text="TRẠI GÀ"
+        android:textColor="#e8bf31"
+        android:textStyle="bold"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="@dimen/chieurong150"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/canhle20"
+            android:drawableRight="@drawable/facebook"
+            android:paddingLeft="@dimen/canhle20"
+            android:paddingRight="@dimen/canhle10"
+            android:text="@string/signinwith"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="19dp" />
+
+        <Button
+            android:layout_width="@dimen/chieurong150"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/twitter"
+            android:paddingLeft="@dimen/canhle20"
+            android:paddingRight="@dimen/canhle10"
+            android:text="@string/signinwith"
+            android:textAllCaps="false"
+            android:textColor="#FFF"
+            android:backgroundTint="#21BFBF"
+            android:textSize="19dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:text="Hoặc"
+        android:textSize="20dp"
+        android:textColor="#AE1515"
+        />
+
+    <EditText
+        android:id="@+id/edTaiKhoan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/canhle20"
+        android:layout_marginRight="@dimen/canhle20"
+        android:background="#E6E8EC"
+        android:drawableLeft="@drawable/user"
+        android:drawablePadding="@dimen/canhle10"
+        android:hint="@string/email"
+        android:textColorHint="#1A8D9C"
+        android:textColor="#090808"
+        android:textSize="20dp"
+        android:lines="1"
+        android:padding="@dimen/canhle10" />
+
+    <EditText
+        android:id="@+id/edMatKhau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/canhle20"
+        android:layout_marginTop="@dimen/canhle10"
+        android:layout_marginRight="@dimen/canhle20"
+        android:background="#e6e7e9"
+        android:drawableLeft="@drawable/password"
+        android:drawablePadding="@dimen/canhle10"
+        android:hint="@string/password"
+        android:textColorHint="#1A8D9C"
+        android:textColor="#090808"
+        android:textSize="20dp"
+        android:lines="1"
+        android:password="true"
+        android:padding="@dimen/canhle10" />
+
+    <Button
+        android:id="@+id/btnDangNhap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/canhle20"
+        android:layout_marginTop="@dimen/canhle20"
+        android:layout_marginRight="@dimen/canhle20"
+        android:paddingTop="@dimen/canhle20"
+        android:paddingBottom="@dimen/canhle20"
+        android:text="Đăng Nhập"
+        android:textAllCaps="false"
+      android:backgroundTint="#4255C5"
+        android:textColor="#FFF"
+        android:textSize="@dimen/kichthuocchu20" />
+
+    <TextView
+        android:id="@+id/tvDangKi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/marginTop40"
+        android:text="Đăng Kí Tài Khoản ?"
+        android:textColor="#0ebe6d"
+        android:textSize="@dimen/kichthuocchu20"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>

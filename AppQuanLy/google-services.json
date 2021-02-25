@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "83587890609",
+    "project_id": "quanly-15b2d",
+    "storage_bucket": "quanly-15b2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:83587890609:android:a0709a58baf8f478db9190",
+        "android_client_info": {
+          "package_name": "com.nguyenvantho.maytrotho"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "83587890609-mr63gar95vhej1ooie2la986fg536o3h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nguyenvantho.maytrotho",
+            "certificate_hash": "d56f8bb3951fe05b661cddc48ceb2ccf7291a5db"
+          }
+        },
+        {
+          "client_id": "83587890609-4uhu7r02tsh1hp97mst751fiu4c93hb8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCP480VH1faNMpa4oj1kjWelPzRd50eHsY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "83587890609-4uhu7r02tsh1hp97mst751fiu4c93hb8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

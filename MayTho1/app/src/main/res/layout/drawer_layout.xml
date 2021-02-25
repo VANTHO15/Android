@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+   <LinearLayout
+       android:id="@+id/content_layout"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:background="@drawable/background_mdpi"
+       >
+       <androidx.appcompat.widget.Toolbar
+           android:id="@+id/toolbar"
+           android:layout_width="match_parent"
+           android:layout_height="?attr/actionBarSize"
+           android:background="#21DDB2">
+       </androidx.appcompat.widget.Toolbar>
+       <RadioGroup
+           android:id="@+id/rgchedo"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_margin="10dp"
+           android:layout_gravity="center"
+           >
+           <RadioButton
+               android:id="@+id/rbdieukhien"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Điều Khiển"
+               android:textColor="#FFF"
+               android:textSize="20dp"
+               android:padding="10dp"
+               android:checked="true"
+               android:button="@drawable/custom_chedo"
+               >
+           </RadioButton>
+           <RadioButton
+               android:id="@+id/rbtudong"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Tự Động"
+               android:textColor="#FFF"
+               android:textSize="20dp"
+               android:padding="10dp"
+               android:button="@drawable/custom_chedo"
+               >
+           </RadioButton>
+
+       </RadioGroup>
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_marginLeft="10dp"
+           >
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+              android:paddingRight="110dp"
+               android:paddingLeft="20dp"
+               >
+               <ImageButton
+                   android:layout_width="60dp"
+                   android:layout_height="60dp"
+                   android:background="@android:color/transparent"
+                   android:src="@drawable/custom_nhietdo"
+                   android:scaleType="fitCenter"
+                   android:layout_margin="5dp"
+
+                   />
+               <TextView
+                   android:id="@+id/tvnhietdo"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="28 C"
+                   android:textColor="#fff"
+                   android:textSize="20dp"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginRight="60dp"
+                   >
+               </TextView>
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               >
+               <ImageButton
+                   android:layout_width="60dp"
+                   android:layout_height="60dp"
+                   android:background="@android:color/transparent"
+                   android:src="@drawable/custom_doam"
+                   android:scaleType="fitCenter"
+                   android:layout_margin="5dp"
+                   />
+               <TextView
+                   android:id="@+id/tvdoam"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="98 %"
+                   android:textColor="#fff"
+                   android:textSize="20dp"
+                   android:paddingRight="10dp"
+                   android:layout_marginLeft="20dp"
+
+                   >
+               </TextView>
+           </LinearLayout>
+
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:layout_marginLeft="25dp"
+           android:layout_gravity="center"
+           android:layout_marginTop="-10dp"
+           >
+           <ToggleButton
+               android:id="@+id/tgsuong"
+               android:layout_width="60dp"
+               android:layout_height="60dp"
+               android:background="@drawable/suong_custom"
+               android:textOff=""
+               android:textOn=""
+               android:layout_marginLeft="10dp"
+               />
+           <TextView
+               android:id="@+id/tvsuong"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Sương Tắt"
+               android:textColor="#fff"
+               android:textSize="20dp"
+               android:layout_marginTop="5sp"
+               android:paddingRight="50dp"
+               >
+           </TextView>
+
+       </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+           android:layout_marginLeft="10dp"
+            >
+            <ToggleButton
+                android:id="@+id/tgquat"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/quat_custom"
+                android:textOff=""
+                android:textOn=""
+                android:layout_margin="5dp"
+                />
+            <TextView
+                android:id="@+id/tvquat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quạt Tắt"
+                android:textColor="#fff"
+                android:textSize="20dp"
+               android:layout_marginTop="5sp"
+                android:paddingRight="40dp"
+                >
+            </TextView>
+            <TextView
+                android:id="@+id/tvden"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đèn Tắt"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:layout_marginTop="5sp"
+                android:layout_marginLeft="20dp"
+                >
+            </TextView>
+            <ToggleButton
+                android:id="@+id/tgden"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:background="@drawable/den_custom"
+                android:textOff=""
+                android:textOn=""
+                android:layout_margin="5dp"
+                />
+
+        </LinearLayout>
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_marginLeft="10dp"
+           >
+           <ToggleButton
+               android:id="@+id/tgrem"
+               android:layout_width="60dp"
+               android:layout_height="60dp"
+               android:background="@drawable/rem_custom"
+               android:textOff=""
+               android:textOn=""
+               android:layout_margin="5dp"
+               />
+           <TextView
+               android:id="@+id/tvrem"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Rèm Tắt"
+               android:textColor="#fff"
+               android:textSize="20dp"
+               android:layout_marginTop="5sp"
+               android:paddingRight="40dp"
+               >
+           </TextView>
+           <TextView
+               android:id="@+id/tvmai"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Mái Tắt"
+               android:textColor="#fff"
+               android:textSize="20dp"
+               android:layout_marginTop="5sp"
+               android:layout_marginLeft="25dp"
+               >
+           </TextView>
+           <ToggleButton
+               android:id="@+id/tgmai"
+               android:layout_width="60dp"
+               android:layout_height="60dp"
+               android:background="@drawable/mai_custom"
+               android:textOff=""
+               android:textOn=""
+               android:layout_margin="5dp"
+               />
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_marginLeft="10dp"
+           >
+           <ToggleButton
+               android:id="@+id/tgchoan"
+               android:layout_width="60dp"
+               android:layout_height="60dp"
+               android:background="@drawable/choan_suctom"
+               android:textOff=""
+               android:textOn=""
+               android:layout_margin="5dp"
+               />
+           <TextView
+               android:id="@+id/tvchoan"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Ăn Tắt"
+               android:textColor="#fff"
+               android:textSize="20dp"
+               android:layout_marginTop="5sp"
+               android:paddingRight="50dp"
+               >
+           </TextView>
+           <TextView
+               android:id="@+id/tvuong"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Uống Tắt"
+               android:textColor="#fff"
+               android:textSize="20dp"
+               android:layout_marginTop="5sp"
+               android:layout_marginLeft="10dp"
+               >
+           </TextView>
+           <ToggleButton
+               android:id="@+id/tguong"
+               android:layout_width="60dp"
+               android:layout_height="60dp"
+               android:background="@drawable/uong_custom"
+               android:textOff=""
+               android:textOn=""
+               android:layout_margin="5dp"
+
+               />
+
+       </LinearLayout>
+
+
+
+
+
+   </LinearLayout>
+    <com.google.android.material.navigation.NavigationView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/navigation_view"
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_gravity="start"
+        app:menu="@menu/item_drawer"
+        app:theme="@style/Theme.AppCompat.Light"
+        app:headerLayout="@layout/header_drawer_layout"
+        app:itemTextColor="#DA400F"
+        app:itemIconTint="#DA400F"
+        >
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/hinhpin"
+        android:maxLevel="1"
+        >
+    </item>
+    <item
+        android:drawable="@drawable/hinhpin2"
+        android:maxLevel="2"
+        >
+    </item>
+    <item
+        android:drawable="@drawable/hinhpin3"
+        android:maxLevel="3"
+        >
+    </item>
+    <item
+        android:drawable="@drawable/hinhpin4"
+        android:maxLevel="4"
+        >
+    </item>
+    <item
+        android:drawable="@drawable/hinhpin5"
+        android:maxLevel="5"
+        >
+    </item>
+</level-list>

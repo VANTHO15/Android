@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="chieuronghinh">150dp</dimen>
+    <dimen name="chieucaohinh">75dp</dimen>
+    <dimen name="marginTopHinh">20dp</dimen>
+    <dimen name="marginTop50">50dp</dimen>
+    <dimen name="marginTop40">40dp</dimen>
+    <dimen name="kichthuochinh">15sp</dimen>
+    <dimen name="kichthuocchu20">20sp</dimen>
+    <dimen name="canhle20">20dp</dimen>
+    <dimen name="canhle10">10dp</dimen>
+    <dimen name="chieurong150">150dp</dimen>
+
+</resources>

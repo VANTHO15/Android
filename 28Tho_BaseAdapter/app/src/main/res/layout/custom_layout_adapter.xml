@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp">
+    <ImageView
+        android:id="@+id/imghinhAnBum"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/images"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/txtTen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nguyên van rtho"
+        android:textColor="#009688"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@id/txtNgayPhatHanh"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.206"
+        app:layout_constraintLeft_toRightOf="@id/imghinhAnBum"
+        app:layout_constraintStart_toEndOf="@+id/imghinhAnBum"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.957">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/txtNgayPhatHanh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="01012000"
+        android:textColor="#E91E63"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="@id/imghinhAnBum"
+        app:layout_constraintEnd_toEndOf="@+id/txtTen"
+        app:layout_constraintHorizontal_bias="0.218"
+        app:layout_constraintLeft_toRightOf="@id/imghinhAnBum"
+        app:layout_constraintStart_toStartOf="@+id/txtTen">
+
+    </TextView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <ImageView
+        android:id="@+id/tvAnh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/transitio"
+        android:layout_marginTop="-40dp"
+        >
+    </ImageView>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnChuyen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chuyển Đổi"
+        android:layout_gravity="center"
+        android:layout_marginTop="300dp"
+        android:textColor="#0C31E4"
+        android:background="#CD5C27"
+        android:textAllCaps="false"
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp"
+        >
+    </androidx.appcompat.widget.AppCompatButton>
+</FrameLayout>

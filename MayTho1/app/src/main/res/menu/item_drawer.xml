@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/so1"
+        android:title="Điều Khiển"
+        android:checked="true"
+        android:icon="@drawable/iconsetting"
+
+        > </item>
+    <item
+        android:id="@+id/so2"
+        android:title="Đồ Thị"
+        android:icon="@drawable/thongke"
+        > </item>
+    <item
+        android:id="@+id/so3"
+        android:title="Tài Khoản"
+
+        android:icon="@drawable/iconcamera"
+        > </item>
+
+    <item
+        android:title="Mở Rộng"
+        >
+       <menu>
+           <item
+               android:id="@+id/so5"
+               android:title="Share"
+               android:icon="@drawable/iconshare"
+               > </item>
+           <item
+               android:id="@+id/so6"
+               android:title="Like"
+               android:icon="@drawable/iconsend"
+               > </item>
+       </menu>
+    </item>
+
+</menu>

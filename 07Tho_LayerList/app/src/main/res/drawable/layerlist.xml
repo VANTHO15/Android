@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap
+            android:src="@drawable/anhphi"
+            android:gravity="center"
+            >
+        </bitmap>
+    </item>
+    <item
+        android:left="500dp"
+        >
+        <bitmap
+            android:src="@drawable/iconsend"
+            android:gravity="center"
+            >
+        </bitmap>
+    </item>
+</layer-list>

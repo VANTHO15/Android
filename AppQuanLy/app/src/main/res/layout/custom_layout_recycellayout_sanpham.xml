@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:id="@+id/imKhuyenMaiSanPham"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+        android:src="@drawable/anh"
+        android:scaleType="centerCrop"
+        >
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sản phẩm mới nhất !"
+        android:fontFamily="@font/dancing"
+        android:textColor="@color/colorcam"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        >
+    </TextView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleSanPhamMoiNhat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        >
+
+    </androidx.recyclerview.widget.RecyclerView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sản Phẩm ưu chuộng nhất !"
+        android:fontFamily="@font/dancing"
+        android:textColor="@color/colorcam"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        >
+    </TextView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleSanPhamUuChuongNhat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        >
+
+    </androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>

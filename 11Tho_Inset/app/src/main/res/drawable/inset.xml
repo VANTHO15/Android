@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/gai5"
+    android:insetTop="100dp"
+    android:insetLeft="100dp"
+    android:insetRight="100dp"
+    android:insetBottom="100dp"
+    >
+
+</inset>

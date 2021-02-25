@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transition xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/gai3"
+        >
+    </item>
+    <item
+        android:drawable="@drawable/gai4"
+        >
+    </item>
+</transition>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtChu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Bạn Code Gì ?"
+        android:textColor="#00BCD4"
+        android:textSize="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+    </TextView>
+
+    <CheckBox
+        android:id="@+id/chkAndroid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Android"
+        android:textColor="#E91E63"
+        android:textSize="30dp"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/tho"
+        app:layout_constraintStart_toStartOf="@+id/tho"
+        app:layout_constraintTop_toBottomOf="@+id/txtChu">
+    </CheckBox>
+
+    <CheckBox
+        android:id="@+id/chkIos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Ios"
+        android:textColor="#E91E63"
+        android:textSize="30dp"
+       app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/tho"
+        app:layout_constraintStart_toStartOf="@+id/tho"
+        app:layout_constraintTop_toBottomOf="@+id/chkAndroid">
+    </CheckBox>
+
+    <CheckBox
+        android:id="@+id/chkReactNative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="React Native"
+        android:textColor="#E91E63"
+        android:textSize="30dp"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/tho"
+        app:layout_constraintStart_toStartOf="@+id/tho"
+        app:layout_constraintTop_toBottomOf="@+id/chkIos">
+    </CheckBox>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnXacNhan"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:background="@drawable/nutxacnhan"
+        android:text="Xác Nhận"
+        android:textAllCaps="false"
+        android:textColor="#FFF"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chkReactNative">
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/tho"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.35"
+        >
+    </androidx.constraintlayout.widget.Guideline>
+</androidx.constraintlayout.widget.ConstraintLayout>

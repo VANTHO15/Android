@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MayTroTho</string>
+    <string name="xinchao">Hello</string>
+    <string name="open">Mở</string>
+    <string name="clode">Đóng</string>
+    <string name="facebook_app_id">516254776001635</string> <string name="fb_login_protocol_scheme">fb516254776001635</string>
+    <string name="googplus_client">83587890609-mr63gar95vhej1ooie2la986fg536o3h.apps.googleusercontent.com</string>
+</resources>

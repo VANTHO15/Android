@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nguyenvantho.maytho1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/image"
+        android:label="Trại Gà"
+        android:roundIcon="@drawable/image"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MayTho1"
+        android:largeHeap="true"
+        >
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".manhinhchinhAvtivity"
+            android:label="manhinhchinh"
+            >
+        </activity>
+
+        <activity android:name=".drawer_activity"
+            android:label="Trang Trại"
+            >
+        </activity>
+    </application>
+
+</manifest>

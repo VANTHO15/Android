@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "235749216364",
+    "project_id": "maytho1",
+    "storage_bucket": "maytho1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235749216364:android:2c1f8e842085a6985e0849",
+        "android_client_info": {
+          "package_name": "com.nguyenvantho.maytho1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "235749216364-3svqavnuu38j74mch1mj0u00dgfe3ps4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nguyenvantho.maytho1",
+            "certificate_hash": "d56f8bb3951fe05b661cddc48ceb2ccf7291a5db"
+          }
+        },
+        {
+          "client_id": "235749216364-ijom0ss0tkdkov8jnm6bb53fb62akn8i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzhOZW_dmtzfNWO-oAQcmujmIt7Sa4VsA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "235749216364-ijom0ss0tkdkov8jnm6bb53fb62akn8i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
